@@ -1,0 +1,7 @@
+name = "GeohashHilbert"
+uuid = "6320efe0-8d16-11e8-2e58-678c92c371c6"
+authors = ["Evan Fields <ejf12009@mymail.pomona.edu>"]
+version = "0.1.0"
+
+[deps]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
