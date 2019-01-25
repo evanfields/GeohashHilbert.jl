@@ -223,6 +223,7 @@ end
 
 function neighbours(geohash, bits_per_char)
     lon, lat, lon_err, lat_err = decode_exactly(geohash, bits_per_char)
+    prec = length(geohash)
     
     north = lat + 2 * lat_err
     south = lat - 2 * lat_err
