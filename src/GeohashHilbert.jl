@@ -1,7 +1,5 @@
 module GeohashHilbert
 
-using StaticArrays
-
 "sing Base.ImmutableDict in place of Dict for `ORDERING` and 
 `HILBERT_RECURSION` seems to provide a ~2x performance gain. Strangely,
 there's not a simple constructor taking a Dict to an ImmutableDict. So,
